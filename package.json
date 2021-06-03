@@ -1,0 +1,26 @@
+{
+  "name": "justarandompracticepackage",
+  "version": "1.0.0",
+  "description": "a title case converter",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/savvywheelerbronte/justarandompracticepackage.git"
+  },
+  "keywords": [
+    "title-case",
+    "converter"
+  ],
+  "author": "Anish Sinha <anishsinha0128@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/savvywheelerbronte/justarandompracticepackage/issues"
+  },
+  "homepage": "https://github.com/savvywheelerbronte/justarandompracticepackage#readme",
+  "dependencies": {
+    "git-init": "^1.0.0"
+  }
+}
