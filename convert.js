@@ -9,7 +9,6 @@ const converter = function (sentence) {
     capitalized.push(capitalizedWord);
   });
   let converted = capitalized.join(" ");
-  console.log("asdf");
   return converted;
 };
 
