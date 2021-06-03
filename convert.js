@@ -1,7 +1,7 @@
 "use strict";
 
 //a converter function
-const converter = function (sentence) {
+function converter(sentence) {
   let capitalized = [];
   let words = sentence.split(" ");
   words.forEach((word) => {
@@ -10,6 +10,6 @@ const converter = function (sentence) {
   });
   let converted = capitalized.join(" ");
   return converted;
-};
+}
 
 module.exports = converter;
