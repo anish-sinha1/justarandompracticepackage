@@ -1,5 +1,6 @@
 "use strict";
 
+//a converter function
 const converter = function (sentence) {
   let capitalized = [];
   let words = sentence.split(" ");
@@ -8,6 +9,7 @@ const converter = function (sentence) {
     capitalized.push(capitalizedWord);
   });
   let converted = capitalized.join(" ");
+  console.log("asdf");
   return converted;
 };
 
