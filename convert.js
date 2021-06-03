@@ -12,4 +12,4 @@ function converter(sentence) {
   return converted;
 }
 
-module.exports = converter;
+export { converter };
